@@ -9,13 +9,14 @@
 
 ## スキル
 - 言語 : Golang, Python, JavaScript, PHP, Java
+- フレームワーク : React, Redux, Vue.js
 - IDL : Protocol Buffers
 - RDB : MySQL, PostgreSQL(RLS)
 - KVS : Redis, DynamoDB
 - MQ : RabbitMQ, Amazon SQS
 - Web : Apache, Nginx, Traefik
 - OS : CentOS, Amazon Linux, Ubuntu
-- Tool : Git, Docker, Terraform, Ansible
+- Tool : Git, Docker, Terraform, Ansible, FFmpeg
 - Cloud : AWS(ECS, EC2, S3, RDS, CloudFront, Lambda, SES, Athena, Batch, MediaStore, etc)
 - Other
   - デザインパターン(GoF)
@@ -27,9 +28,10 @@
   - OAuth2.0
   - マイクロサービスアーキテクチャ
   - Monorepo
+  - DevContainer
 
 ## 職務経歴
-詳細は別ページにて記載しております。
+詳細は<a href="job_details.html">こちら</a>です。
 
 |  🕰️期間  |  🏢会社  |
 | ---- | ---- |

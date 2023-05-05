@@ -8,14 +8,14 @@
 
 
 ## スキル
-- 言語 : Golang, Python, JavaScript, PHP, Java
+- 言語 : Golang(1.20), Python, JavaScript(ES6), PHP(5.6), Java
 - フレームワーク : React, Redux, Vue.js
 - IDL : Protocol Buffers
-- RDB : MySQL, PostgreSQL(RLS)
-- KVS : Redis, DynamoDB
+- RDB : MySQL(5.7), PostgreSQL(14.5, RLS)
+- KVS : Redis(6.0), DynamoDB
 - MQ : RabbitMQ, Amazon SQS
 - Web : Apache, Nginx, Traefik
-- OS : CentOS, Amazon Linux, Ubuntu
+- OS : CentOS, Amazon Linux 2, Ubuntu(16, 20)
 - Tool : Git, Docker, Terraform, Ansible, FFmpeg
 - Cloud : AWS(ECS, EC2, S3, RDS, CloudFront, Lambda, SES, Athena, Batch, MediaStore, etc)
 - Other
@@ -29,6 +29,7 @@
   - マイクロサービスアーキテクチャ
   - Monorepo
   - DevContainer
+  - コマンドクエリ分離原則
 
 ## 職務経歴
 詳細は<a href="job_details.html">こちら</a>です。

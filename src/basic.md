@@ -10,7 +10,7 @@
 ## スキル
 - 言語 : Golang(1.20), Python, JavaScript(ES6), PHP(5.6), Java
 - フレームワーク : React, Redux, Vue.js
-- IDL : Protocol Buffers
+- IDL : OpenAPI, Protocol Buffers
 - RDB : MySQL(5.7), PostgreSQL(14.5, RLS)
 - KVS : Redis(6.0), DynamoDB
 - MQ : RabbitMQ, Amazon SQS

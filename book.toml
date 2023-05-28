@@ -3,7 +3,7 @@ authors = ["stomy13"]
 language = "ja"
 multilingual = false
 src = "src"
-title = "stomy13's homepage"
+title = "About stomy13"
 
 [build]
 build-dir = "docs"

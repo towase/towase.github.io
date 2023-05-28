@@ -4,6 +4,6 @@
 
 # Profile
 - [👤 基本情報](./basic.md)
-  - [価値観]()
+  - [🧐 価値観](./perspective.md)
   - [興味関心]()
 - [📚職務経歴](./job_details.md)

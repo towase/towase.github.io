@@ -8,7 +8,7 @@
 
 
 ## スキル
-- 言語 : Golang(1.23), Python, JavaScript(ES6), TypeScript(5.7), PHP(5.6), Java SE 8
+- 言語 : Golang(1.25), Python, JavaScript(ES6), TypeScript(5.7), PHP(5.6), Java SE 8
 - フロントエンド : React, Zustand, React Router, TanStack Query, Redux(Redux-Saga), Vue.js
 - IDL : OpenAPI v3, Protocol Buffers
 - RDB : MySQL(5.7, 8.0), PostgreSQL(14.5, RLS)

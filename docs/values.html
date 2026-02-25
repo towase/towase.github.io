@@ -145,32 +145,31 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="-価値観"><a class="header" href="#-価値観">💎 価値観</a></h1>
+<h2 id="全般"><a class="header" href="#全般">全般</a></h2>
 <ul>
-<li>何をするにも目的やゴールを常に意識することが大事</li>
-<li>技術は手段
-<ul>
-<li>実現可能範囲や選択の幅を広げるために手を動かしてキャッチアップすることも大事</li>
-</ul>
-</li>
-<li>良い命名は良い設計につながる</li>
-<li>コンテキストのない曖昧な略語は使用しない
-<ul>
-<li>スコープにもよる</li>
-</ul>
-</li>
+<li>目的やゴールを常に考えることが大事</li>
 <li>物事を仮説を立てて検証するように実行する</li>
 <li>トレードオフはバランスが大事
 <ul>
 <li>フェーズによって変わる黄金のバランスを探していきたい</li>
 </ul>
 </li>
-<li>何事も鵜呑みしない</li>
-<li>正解はない</li>
+<li>正解は分からないので選んだものを正解にしていく</li>
 <li>仕事は楽しくしたい
 <ul>
 <li>大変なことをしたくないということではない</li>
 </ul>
 </li>
+</ul>
+<h2 id="開発文脈"><a class="header" href="#開発文脈">開発文脈</a></h2>
+<ul>
+<li>技術は手段
+<ul>
+<li>実現可能範囲や選択の幅を広げるために手を動かしてキャッチアップすることも大事</li>
+</ul>
+</li>
+<li>命名にこだわる</li>
+<li>コンテキストのない曖昧な略語は使用しない（スコープにもよる）</li>
 </ul>
 
                     </main>
@@ -202,6 +201,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

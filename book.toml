@@ -1,9 +1,9 @@
 [book]
-authors = ["stomy13"]
+authors = ["towase"]
 language = "ja"
 multilingual = false
 src = "src"
-title = "About stomy13"
+title = "About towase"
 
 [build]
 build-dir = "docs"

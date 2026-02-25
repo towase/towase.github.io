@@ -4,7 +4,7 @@
 
 1993年05月11日生まれ
 
-[<img alt="GitHub Logo" height="15px" src="./assets/github-mark-white.png" /> GitHub](https://github.com/stomy13)
+[<img alt="GitHub Logo" height="15px" src="./assets/github-mark-white.png" /> GitHub](https://github.com/towase)
 
 
 ## スキル

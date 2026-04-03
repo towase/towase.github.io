@@ -1,23 +1,25 @@
 # AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、AI Agent がこのリポジトリで作業する際のガイドラインです。
 
-## Commands
+## コマンド
 
 ```bash
-make build   # Generate static HTML into /docs/
-make serve   # Local preview server (wraps mdbook serve)
+make build   # 静的HTMLを /docs/ に生成
+make serve   # ローカルプレビューサーバー（mdbook serve のラッパー）
 ```
 
-## Architecture
+## アーキテクチャ
 
-This is a **mdBook**-based static portfolio site deployed to GitHub Pages.
+**mdBook** ベースの静的ポートフォリオサイトで、GitHub Pages にデプロイされています。
 
-- `src/` — Markdown source files; `SUMMARY.md` defines the navigation structure
-- `docs/` — Build output (generated HTML); committed to the repo for GitHub Pages
-- `book.toml` — mdBook config; language is `ja` (Japanese), output dir is `docs/`
-- `index.html` — Root redirect to `./docs/index.html`
+- `src/` — Markdownソースファイル。`SUMMARY.md` がナビゲーション構造を定義
+- `docs/` — ビルド出力（生成されたHTML）。GitHub Pages 配信のためリポジトリにコミットする
+- `book.toml` — mdBook設定。言語は `ja`（日本語）、出力先は `docs/`
+- `index.html` — ルートから `./docs/index.html` へのリダイレクト
 
-**Workflow:** Edit Markdown in `src/` → `make build` regenerates `docs/` → commit both.
+**ワークフロー:** `src/` のMarkdownを編集 → `make build` で `docs/` を再生成 → 両方をコミット。
 
-The `docs/` directory is a build artifact but must be committed since GitHub Pages serves from it.
+**重要:** `src/` 配下のファイルを編集したら、必ず `make build` を実行して `docs/` を再生成すること。
+
+`docs/` ディレクトリはビルド成果物だが、GitHub Pages がここから配信するためコミットが必要。

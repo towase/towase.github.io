@@ -6,7 +6,7 @@
 
 [<img alt="GitHub Logo" height="15px" src="./assets/github-mark-white.png" /> GitHub](https://github.com/towase)
 
-ソフトウェアエンジニアです。フルスタック・フルサイクルで、チームとプロダクトの両面から価値を届けることを大切にしています。
+ソフトウェアエンジニアです。フルサイクルにチームとプロダクトの両面から価値を届けることを大切にしています。
 
 ## 職務経歴書
 詳細は<a href="career.html">こちら</a>です。

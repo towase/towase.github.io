@@ -72,8 +72,7 @@
   - Copilot instructions整備により暗黙知を明文化し、修正工数を削減
   - AI活用ミーティングを主導し、継続的活用文化を醸成
 
-- 技術発信による採用広報への貢献
-  - 技術ブログ執筆、はてなブックマーク60件以上獲得
+- 技術ブログ執筆、はてなブックマーク60件以上獲得、採用広報へ貢献
   - [Object.keys() が返す配列の順序における数値キーの昇順には上限がある](https://kaminashi-developer.hatenablog.jp/entry/2024/06/04/120000)
   - [Immer はどのように実装されているか](https://kaminashi-developer.hatenablog.jp/entry/2025/06/09/how-is-the-immer-implemented)
 

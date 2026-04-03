@@ -4,4 +4,4 @@ build:
 
 .PHONY: serve
 serve:
-	mdbook serve
+	mdbook serve -p 8000

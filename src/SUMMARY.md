@@ -1,9 +1,9 @@
-# Summary
+# 目次
 
-[Introduction](README.md)
+[はじめに](README.md)
 
-# Profile
+# プロフィール
 - [👤 基本情報](./basic.md)
-  - [💎 価値観](./values.md)
-  - [🧐 興味関心](./interest.md)
-- [📚職務経歴](./job_details.md)
+- [📚 職務経歴書](./career.md)
+- [🧭 スタンス](./behavior.md)
+- [📖 取扱説明書](./manual.md)

@@ -2,17 +2,18 @@
 
 ## スキル
 
-| カテゴリ                       | 技術・ツール・手法                                                                                                               |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| プログラミング言語             | Go, TypeScript, Python                                                                                                           |
-| フレームワーク                 | React, Expo                                                                                                                      |
-| IDL                            | OpenAPI, Protocol Buffers                                                                                                        |
-| データストア                   | MySQL, PostgreSQL, Redis                                                                                                         |
-| クラウド                       | AWS (ECS, EC2, S3, RDS, CloudFront, Lambda, SES, SQS, DynamoDB, Athena, Batch, MediaStore, etc), GCP(BigQuery, Google Analytics) |
-| コンテナ・オーケストレーション | Docker                                                                                                                           |
-| IaC                            | Terraform                                                                                                                        |
-| CI/CD                          | GitHub Actions, DroneCI                                                                                                          |
-| その他                         | GoF デザインパターン, オブジェクト指向, ドメイン駆動設計, 12 Factor App, マルチテナントアーキテクチャ, スクラム開発, OAuth2.0    |
+| カテゴリ                       | 技術・ツール・手法                                                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| プログラミング言語             | Go, TypeScript, Python                                                                                                        |
+| フレームワーク                 | React, Expo                                                                                                                   |
+| IDL                            | OpenAPI, Protocol Buffers                                                                                                     |
+| データストア                   | MySQL, PostgreSQL, Redis                                                                                                      |
+| クラウド（AWS）                | ECS, EC2, S3, RDS, CloudFront, Lambda, SES, SQS, DynamoDB, Athena, Batch, MediaStore, etc                                     |
+| クラウド（GCP）                | BigQuery, Google Analytics                                                                                                    |
+| コンテナ・オーケストレーション | Docker                                                                                                                        |
+| IaC                            | Terraform                                                                                                                     |
+| CI/CD                          | GitHub Actions, DroneCI                                                                                                       |
+| その他                         | GoF デザインパターン, オブジェクト指向, ドメイン駆動設計, 12 Factor App, マルチテナントアーキテクチャ, スクラム開発, OAuth2.0 |
 
 ---
 

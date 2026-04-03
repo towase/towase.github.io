@@ -16,6 +16,12 @@
 | その他                         | GoF デザインパターン, オブジェクト指向, ドメイン駆動設計, 12 Factor App, マルチテナントアーキテクチャ, スクラム開発, OAuth2.0, Feature Flag |
 
 
+## 技術ブログ
+
+- [Object.keys() が返す配列の順序における数値キーの昇順には上限がある](https://kaminashi-developer.hatenablog.jp/entry/2024/06/04/120000)
+- [Immer はどのように実装されているか](https://kaminashi-developer.hatenablog.jp/entry/2025/06/09/how-is-the-immer-implemented)
+
+
 ## 資格
 
 | 取得日     | 資格                           |
@@ -70,8 +76,6 @@
   - AI活用ミーティングを主導し、継続的なトライ・振り返り習慣をチームに定着
 
 - 技術ブログ執筆、はてなブックマーク60件以上獲得、採用広報へ貢献
-  - [Object.keys() が返す配列の順序における数値キーの昇順には上限がある](https://kaminashi-developer.hatenablog.jp/entry/2024/06/04/120000)
-  - [Immer はどのように実装されているか](https://kaminashi-developer.hatenablog.jp/entry/2025/06/09/how-is-the-immer-implemented)
 
 ## ロゴスウェア株式会社
 2020年01月 ～ 2023年09月

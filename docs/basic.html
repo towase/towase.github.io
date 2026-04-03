@@ -148,6 +148,14 @@
 <p><strong>徳瀬 雅人(Masato Tokuse)</strong></p>
 <p>1993年05月11日生まれ</p>
 <p><a href="https://github.com/towase"><img alt="GitHub Logo" height="15px" src="./assets/github-mark-white.png" /> GitHub</a></p>
+<h2 id="職務経歴書"><a class="header" href="#職務経歴書">職務経歴書</a></h2>
+<p>詳細は<a href="career.html">こちら</a>です。</p>
+<div class="table-wrapper"><table><thead><tr><th>🕰️期間</th><th>🏢会社</th><th>💼ロール</th></tr></thead><tbody>
+<tr><td>2023/10/01~202X/XX/XX</td><td>株式会社カミナシ</td><td>ソフトウェアエンジニア</td></tr>
+<tr><td>2020/01/01~2023/09/30</td><td>ロゴスウェア株式会社</td><td>バックエンド・インフラエンジニア</td></tr>
+<tr><td>2015/04/01~2019/07/31</td><td>インフォテック株式会社</td><td>システムエンジニア</td></tr>
+</tbody></table>
+</div>
 <h2 id="スキル"><a class="header" href="#スキル">スキル</a></h2>
 <ul>
 <li>言語 : Golang(1.25), Python, JavaScript(ES6), TypeScript(5.7), PHP(5.6), Java SE 8</li>
@@ -174,14 +182,6 @@
 </ul>
 </li>
 </ul>
-<h2 id="職務経歴書"><a class="header" href="#職務経歴書">職務経歴書</a></h2>
-<p>詳細は<a href="career.html">こちら</a>です。</p>
-<div class="table-wrapper"><table><thead><tr><th>🕰️期間</th><th>🏢会社</th><th>💼ロール</th></tr></thead><tbody>
-<tr><td>2023/10/01~202X/XX/XX</td><td>株式会社カミナシ</td><td>ソフトウェアエンジニア</td></tr>
-<tr><td>2020/01/01~2023/09/30</td><td>ロゴスウェア株式会社</td><td>バックエンド・インフラエンジニア</td></tr>
-<tr><td>2015/04/01~2019/07/31</td><td>インフォテック株式会社</td><td>システムエンジニア</td></tr>
-</tbody></table>
-</div>
 <h2 id="影響を受けている書籍"><a class="header" href="#影響を受けている書籍">影響を受けている書籍</a></h2>
 <ul>
 <li>リーダブルコード</li>
@@ -235,6 +235,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

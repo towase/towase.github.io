@@ -16,28 +16,6 @@
 | 2020/01/01~2023/09/30 | ロゴスウェア株式会社   | バックエンド・インフラエンジニア |
 | 2015/04/01~2019/07/31 | インフォテック株式会社 | システムエンジニア               |
 
-## スキル
-- 言語 : Golang(1.25), Python, JavaScript(ES6), TypeScript(5.7), PHP(5.6), Java SE 8
-- フロントエンド : React, Zustand, React Router, TanStack Query, Redux(Redux-Saga), Vue.js
-- IDL : OpenAPI v3, Protocol Buffers
-- RDB : MySQL(5.7, 8.0), PostgreSQL(14.5, RLS)
-- KVS : Redis(6.0), DynamoDB
-- MQ : RabbitMQ, Amazon SQS
-- Web : Apache, Nginx, Traefik
-- OS : CentOS, Amazon Linux 2, Ubuntu(16, 20)
-- Tool : Git, Docker, Terraform, Ansible, FFmpeg
-- AWS : ECS, EC2, S3, RDS, CloudFront, Lambda, SES, Athena, Batch, MediaStore, etc
-- Other
-  - デザインパターン(GoF)
-  - OOP、DDD
-  - 12 Factor App
-  - マルチテナントアーキテクチャ
-  - スクラム開発
-  - 継続的インテグレーション
-  - OAuth2.0
-  - DevContainer
-  - コマンドクエリ分離原則
-
 ## 影響を受けている書籍
 - リーダブルコード
 - プリンシパル オブ プログラミング

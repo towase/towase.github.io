@@ -1,10 +1,11 @@
 # はじめに
 
-**徳瀬 雅人(Masato Tokuse)**
-
-1993年05月11日生まれ
-
-[<img alt="GitHub Logo" height="15px" src="./assets/github-mark-white.png" /> GitHub](https://github.com/towase)
+| 項目 | 内容 |
+| --- | --- |
+| 氏名 | 徳瀬 雅人(Masato Tokuse) |
+| ニックネーム | トクセ |
+| 生年月日 | 1993年05月11日 |
+| GitHub | https://github.com/towase |
 
 ソフトウェアエンジニアです。フルサイクルにチームとプロダクトの両面から価値を届けることを大切にしています。
 

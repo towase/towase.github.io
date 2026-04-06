@@ -2,7 +2,7 @@
 
 ## 性格
 
-- MBTI: INTP / INFJ
+- 16personalities: [INTP](https://www.16personalities.com/ja/intp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC) -> [INFJ](https://www.16personalities.com/ja/infj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC)
 - 慎重派。考えてから動くタイプ
 - 仮説で動くことも大事にしているが、根はじっくり考えたい人
 

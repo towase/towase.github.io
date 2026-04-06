@@ -1,7 +1,6 @@
 [book]
 authors = ["towase"]
 language = "ja"
-multilingual = false
 src = "src"
 title = "About towase"
 

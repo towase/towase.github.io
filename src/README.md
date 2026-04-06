@@ -5,7 +5,7 @@
 | 氏名 | 徳瀬 雅人(Masato Tokuse) |
 | ニックネーム | トクセ |
 | 生年月日 | 1993年05月11日 |
-| GitHub | https://github.com/towase |
+| GitHub | [https://github.com/towase](https://github.com/towase) |
 
 ソフトウェアエンジニアです。フルサイクルにチームとプロダクトの両面から価値を届けることを大切にしています。
 

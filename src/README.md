@@ -4,6 +4,8 @@
 | --- | --- |
 | 氏名 | 徳瀬 雅人(Masato Tokuse) |
 | ニックネーム | トクセ |
+| 出身地 | 福岡県久留米市 |
+| 居住地 | 東京都 |
 | 生年月日 | 1993年05月11日 |
 | GitHub | [https://github.com/towase](https://github.com/towase) |
 

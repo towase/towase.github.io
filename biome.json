@@ -6,16 +6,16 @@
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": [
-      "node_modules",
-      "dist",
-      ".output",
-      ".nitro",
-      ".tanstack",
-      "styled-system",
-      "src/routeTree.gen.ts",
-      "docs",
-      "pnpm-lock.yaml"
+    "includes": [
+      "**",
+      "!node_modules",
+      "!dist",
+      "!.output",
+      "!.nitro",
+      "!.tanstack",
+      "!styled-system",
+      "!src/routeTree.gen.ts",
+      "!pnpm-lock.yaml"
     ]
   },
   "formatter": {

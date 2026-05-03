@@ -4,6 +4,38 @@
 
 mdBook ベースの towase.github.io を React + TanStack Start に移行中。grill-me で設計合意 → 環境構築 + ファイル移動まで完了 → 中断（別 PC で再開予定）。
 
+## 🚀 別セッションでの再開プロンプト
+
+別 PC・別セッションで Claude Code を起動し、下記をそのまま貼って指示してください。
+
+```
+mdBook → TanStack Start 移行の続きをやってほしい。
+ブランチ feat/migrate-to-tanstack-start の WIP commit からの再開。
+リポジトリルートの MIGRATION.md に設計・進捗・残タスク・遭遇した問題が全部書いてある。
+
+最初にやること:
+1. git status で working tree がクリーンか確認
+2. pnpm install で node_modules を整える
+3. pnpm exec panda codegen で styled-system を生成
+4. MIGRATION.md を最初から最後まで読む（設計の why と残タスクが全部入っている）
+5. MIGRATION.md の「Phase A: 骨組みを動かす」から作業着手
+
+守ること:
+- PandaCSS は 0.48.0 のまま（1.x にしない。Park UI 0.43.1 と非互換）
+- TDD（探索 → Red → Green → Refactor）で進める
+- main 直コミット禁止、feat/migrate-to-tanstack-start ブランチ上で作業
+- ローカルの post-tool-use hook が make build (mdBook) を走らせて失敗するが、
+  tool 自体は成功する。気になるなら Phase F を前倒しして
+  book.toml と Makefile を先に削除してもよい
+
+終わるとき:
+- MIGRATION.md を削除
+- 旧 mdBook 関連（book.toml, Makefile, deploy.yml の mdBook ステップ）を削除
+- PR を作る（PR Template があれば従う）
+
+まず MIGRATION.md を読んでから着手してください。
+```
+
 ## ゴール & 動機
 
 - **主動機**: TanStack ファミリーを実戦投入する **学習目的の遊び場**

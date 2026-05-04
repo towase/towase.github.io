@@ -14,10 +14,12 @@ const pageStyles = css({
 })
 
 const mainStyles = css({
-  maxWidth: '4xl',
+  maxWidth: '3xl',
   marginX: 'auto',
-  paddingX: '6',
-  paddingY: '8',
+  paddingX: { base: '5', md: '8' },
+  paddingY: { base: '8', md: '12' },
+  fontSize: 'md',
+  lineHeight: '1.7',
 })
 
 export const Route = createRootRoute({

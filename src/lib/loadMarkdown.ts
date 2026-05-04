@@ -1,24 +1,18 @@
-import { readFile } from 'node:fs/promises'
-import path from 'node:path'
-import { createServerFn } from '@tanstack/react-start'
+const modules = import.meta.glob('/content/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>
 
 const SLUG_PATTERN = /^[a-z]+$/
 
-export async function readMarkdownFromFs(slug: string): Promise<string> {
+export function loadMarkdown(slug: string): string {
   if (!SLUG_PATTERN.test(slug)) {
     throw new Error(`Invalid slug: ${slug}`)
   }
-  const filePath = path.join(process.cwd(), 'content', `${slug}.md`)
-  return await readFile(filePath, 'utf8')
+  const content = modules[`/content/${slug}.md`]
+  if (content === undefined) {
+    throw new Error(`Markdown not found: ${slug}`)
+  }
+  return content
 }
-
-export const loadMarkdown = createServerFn({ method: 'GET' })
-  .inputValidator((slug: unknown) => {
-    if (typeof slug !== 'string') {
-      throw new Error('slug must be a string')
-    }
-    return slug
-  })
-  .handler(async ({ data }) => {
-    return await readMarkdownFromFs(data)
-  })

@@ -41,7 +41,7 @@ function RootComponent() {
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="ja" data-theme="dark">
+    <html lang="ja" className="dark">
       <head>
         <HeadContent />
       </head>

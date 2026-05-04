@@ -23,3 +23,9 @@
     margin-top: 0;
   }
 }
+
+/* github-markdown-css は layer 外で読み込まれているため、上書きも layer 外で書く */
+.markdown-body {
+  background-color: transparent;
+  color: inherit;
+}

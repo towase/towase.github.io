@@ -1,4 +1,11 @@
-import { createRootRoute, HeadContent, Outlet, Scripts } from '@tanstack/react-router'
+import {
+  HeadContent,
+  Outlet,
+  Scripts,
+  createRootRoute,
+  useRouter,
+} from '@tanstack/react-router'
+import { useEffect } from 'react'
 import type { ReactNode } from 'react'
 import { css } from 'styled-system/css'
 
@@ -6,6 +13,15 @@ import { NavBar } from '~/components/NavBar'
 
 import 'github-markdown-css/github-markdown-dark-dimmed.css'
 import '~/styles/index.css'
+
+declare global {
+  interface Window {
+    dataLayer: unknown[]
+    gtag: (...args: unknown[]) => void
+  }
+}
+
+const GA_ID = 'G-E6VT5SSC90'
 
 const pageStyles = css({
   minHeight: '100vh',
@@ -29,11 +45,36 @@ export const Route = createRootRoute({
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { title: 'towase.github.io' },
     ],
+    scripts: [
+      {
+        src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
+        async: true,
+      },
+      {
+        children: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${GA_ID}', { send_page_view: false });`,
+      },
+    ],
   }),
   component: RootComponent,
 })
 
 function RootComponent() {
+  const router = useRouter()
+
+  useEffect(() => {
+    const send = (path: string) => {
+      window.gtag?.('event', 'page_view', {
+        page_path: path,
+        page_location: window.location.href,
+        page_title: document.title,
+      })
+    }
+    send(window.location.pathname)
+    return router.subscribe('onResolved', ({ toLocation }) => {
+      send(toLocation.pathname)
+    })
+  }, [router])
+
   return (
     <RootDocument>
       <Outlet />

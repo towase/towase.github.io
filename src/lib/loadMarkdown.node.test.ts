@@ -1,38 +1,37 @@
 import { describe, expect, it } from 'vitest'
 
-import { readMarkdownFromFs } from './loadMarkdown'
+import { loadMarkdown } from './loadMarkdown'
 
-describe('readMarkdownFromFs', () => {
-  it('reads index.md from content/', async () => {
-    const result = await readMarkdownFromFs('index')
-    expect(result).toContain('はじめに')
+describe('loadMarkdown', () => {
+  it('reads index.md from content/', () => {
+    expect(loadMarkdown('index')).toContain('はじめに')
   })
 
-  it('reads about.md from content/', async () => {
-    const result = await readMarkdownFromFs('about')
-    expect(result).toContain('自己紹介')
+  it('reads about.md from content/', () => {
+    expect(loadMarkdown('about')).toContain('自己紹介')
   })
 
-  it('reads career.md from content/', async () => {
-    const result = await readMarkdownFromFs('career')
-    expect(result).toContain('職務経歴書')
+  it('reads career.md from content/', () => {
+    expect(loadMarkdown('career')).toContain('職務経歴書')
   })
 
-  it('reads behavior.md from content/', async () => {
-    const result = await readMarkdownFromFs('behavior')
-    expect(result).toContain('スタンス')
+  it('reads behavior.md from content/', () => {
+    expect(loadMarkdown('behavior')).toContain('スタンス')
   })
 
-  it('reads manual.md from content/', async () => {
-    const result = await readMarkdownFromFs('manual')
-    expect(result).toContain('ワークスタイル')
+  it('reads manual.md from content/', () => {
+    expect(loadMarkdown('manual')).toContain('ワークスタイル')
   })
 
-  it('rejects slug containing traversal characters', async () => {
-    await expect(readMarkdownFromFs('../package')).rejects.toThrow('Invalid slug')
+  it('rejects slug containing traversal characters', () => {
+    expect(() => loadMarkdown('../package')).toThrow('Invalid slug')
   })
 
-  it('rejects empty slug', async () => {
-    await expect(readMarkdownFromFs('')).rejects.toThrow('Invalid slug')
+  it('rejects empty slug', () => {
+    expect(() => loadMarkdown('')).toThrow('Invalid slug')
+  })
+
+  it('throws when file does not exist', () => {
+    expect(() => loadMarkdown('nonexistent')).toThrow('Markdown not found')
   })
 })

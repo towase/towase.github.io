@@ -4,7 +4,7 @@ import { MarkdownRenderer } from '~/components/MarkdownRenderer'
 import { loadMarkdown } from '~/lib/loadMarkdown'
 
 export const Route = createFileRoute('/about')({
-  loader: () => loadMarkdown({ data: 'about' }),
+  loader: () => loadMarkdown('about'),
   component: AboutPage,
 })
 

@@ -1,8 +1,0 @@
-[book]
-authors = ["towase"]
-language = "ja"
-src = "src"
-title = "About towase"
-
-[build]
-build-dir = "docs"

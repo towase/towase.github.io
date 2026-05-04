@@ -1,0 +1,31 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@layer base {
+  .markdown-body ul {
+    list-style-type: disc;
+  }
+  .markdown-body ul ul {
+    list-style-type: circle;
+  }
+  .markdown-body ul ul ul {
+    list-style-type: square;
+  }
+  .markdown-body ol {
+    list-style-type: decimal;
+  }
+  .markdown-body li + li {
+    margin-top: 0.25em;
+  }
+  .markdown-body :is(h1, h2, h3, h4) {
+    margin-top: 1.6em;
+  }
+  .markdown-body > :first-child {
+    margin-top: 0;
+  }
+}
+
+/* github-markdown-css は layer 外で読み込まれているため、上書きも layer 外で書く */
+.markdown-body {
+  background-color: transparent;
+  color: inherit;
+}

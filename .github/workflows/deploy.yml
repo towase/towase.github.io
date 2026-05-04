@@ -1,4 +1,4 @@
-name: Deploy mdBook to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -20,18 +20,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v2
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
         with:
-          mdbook-version: latest
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: mdbook build
+        run: pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: dist/client
 
   deploy:
     environment:

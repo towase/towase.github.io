@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@zag-js/core': 0.82.2
+  effect: '>=3.20.0'
+
 importers:
 
   .:
@@ -1010,11 +1014,8 @@ packages:
   '@zag-js/combobox@1.40.0':
     resolution: {integrity: sha512-5IVCDrB8m7XrKBu28j7bIRE5KiyKJLPDZB3AJ+PLJyL69D+9z1anhLDmkUYcPseyCasszLKzIejby+kYQJgHlA==}
 
-  '@zag-js/core@0.62.1':
-    resolution: {integrity: sha512-ZSjqnV5vcGDassjmZ/lxWbG244A0i+IHImVZ/a4/0JkjkH126ly+At4FC+HI571pNKiNlrqYmGzRRSBMqm37yQ==}
-
-  '@zag-js/core@1.40.0':
-    resolution: {integrity: sha512-0YcqCh7TmhSonkbKM/7NWolxlaQgvvXgqedocW9oeRYiDJIpBZyRqnHPoGAS2XwbBPkCnrqSosxSF5yBjhZpgw==}
+  '@zag-js/core@0.82.2':
+    resolution: {integrity: sha512-yj4trnU4RzO4duiZJ7uvxECg+6MPVkEbTvTwf2TynotXBYX65LGMTqvMzZP062wvdu0jvTgZ/IbCpN1gc3hmsQ==}
 
   '@zag-js/date-input@1.40.0':
     resolution: {integrity: sha512-/VU8g3dugggC5xW2OJW1KONWzPkEbK/yLA0lPxymW/Uo0ixh2mKJUVTOTqDFWf1b0vzLX2XlYoLL+I2ryUyPvA==}
@@ -1267,8 +1268,8 @@ packages:
   '@zag-js/steps@1.40.0':
     resolution: {integrity: sha512-5sVFzcIYubCn1nJSQIx9WWNlJuFoOJMpkD/ZMwNp0LzpnmnspsCOmdnQUWEftMQ1KdwZ+qNgfo/+kHclb9cBjg==}
 
-  '@zag-js/store@0.62.1':
-    resolution: {integrity: sha512-0xkz7b/Rs9cHeI5CB3UH4yMlVzys3l+IsJU3KRWZwqWohDjTEqRyzcuFD6AH28WAcJPjIgOQYnRYzYSoMGZtDQ==}
+  '@zag-js/store@0.82.2':
+    resolution: {integrity: sha512-tjG99kSFfnUHWMTe3y+CAqCrH/RGCB2V5y0BoasITYAqTpqbCfPJH0R2+UYsY3kLqPnE+JDkkh1TnwcqKLc0/w==}
 
   '@zag-js/store@1.40.0':
     resolution: {integrity: sha512-EmgYIdbNZ4TN4Qht/jugY4UVkaWx69l8P1qiX23U4YwqNLq10tyOJmcXWbvsrprU1dGb24B+xq0WBm/RIjw4WA==}
@@ -1338,6 +1339,9 @@ packages:
 
   '@zag-js/utils@0.62.1':
     resolution: {integrity: sha512-90sk7Li2mqoMCAfZbns1xrySEg4PIFPwLpiRO/T2kvKpc9z/qsq2WqDFpS8eqHfYRmkLnmQa0Bw1LzItYYsGVQ==}
+
+  '@zag-js/utils@0.82.2':
+    resolution: {integrity: sha512-tN87VEEoo240O2CzQdHvtBVPF8hHqLdpNzDT+obNIQrRj4wbNQ5Ze3Zwrd6/SoBe7ImKgkwbAlgu4k5+v9sDcA==}
 
   '@zag-js/utils@1.40.0':
     resolution: {integrity: sha512-XUpqDtXfHe7CySjOhLPLj9H8rxbiFUJAGgmBzNdpsGPP4wx12cpOXrpSjRXZ2kMwooMPz/P7RPDBteto8sqhAQ==}
@@ -1563,11 +1567,8 @@ packages:
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
 
-  effect@3.10.15:
-    resolution: {integrity: sha512-LdczPAFbtij3xGr9i+8PyDtuWdlXjSY5UJ8PKrYrr0DClKfR/OW3j8sxtambWYljzJAYD865KFhv7LdbWdG7VQ==}
-
-  effect@3.19.5:
-    resolution: {integrity: sha512-P/Yml/wuqfIWVg4EH3QWKEqe4txwZVa9tCnlp24mRtIxN/wbn27KLOuDyF0HcKuMYsX/SGw8Lxe0T0Y6q4tvBA==}
+  effect@3.21.2:
+    resolution: {integrity: sha512-rXd2FGDM8KdjSIrc+mqEELo7ScW7xTVxEf1iInmPSpIde9/nyGuFM710cjTo7/EreGXiUX2MOonPpprbz2XHCg==}
 
   electron-to-chromium@1.5.349:
     resolution: {integrity: sha512-QsWVGyRuY07Aqb234QytTfwd5d9AJlfNIQ5wIOl1L+PZDzI9d9+Fn0FRale/QYlFxt/bUnB0/nLd1jFPGxGK1A==}
@@ -1846,10 +1847,6 @@ packages:
   kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
-
-  klona@2.0.6:
-    resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
-    engines: {node: '>= 8'}
 
   lightningcss-android-arm64@1.32.0:
     resolution: {integrity: sha512-YK7/ClTt4kAK0vo6w3X+Pnm0D2cf2vPHbhOXdoNti1Ga0al1P4TBZhwjATvjNwLEBCnKvjJc2jQgHXH0NEwlAg==}
@@ -2361,9 +2358,6 @@ packages:
   property-information@7.1.0:
     resolution: {integrity: sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==}
 
-  proxy-compare@3.0.0:
-    resolution: {integrity: sha512-y44MCkgtZUCT9tZGuE278fB7PWVf7fRYy0vbRXAts2o5F0EfC4fIQrvQQGBJo1WJbFcVLXzApOscyJuZqHQc1w==}
-
   proxy-compare@3.0.1:
     resolution: {integrity: sha512-V9plBAt3qjMlS1+nC8771KNf6oJ12gExvaxnNzN/9yVRLdTv/lc+oJlnSzrdYDAvBfTStPCoiaCOTmTs0adv7Q==}
 
@@ -2858,7 +2852,7 @@ snapshots:
       '@zag-js/color-picker': 1.40.0
       '@zag-js/color-utils': 1.40.0
       '@zag-js/combobox': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/date-input': 1.40.0(@internationalized/date@3.12.0)
       '@zag-js/date-picker': 1.40.0(@internationalized/date@3.12.0)
       '@zag-js/date-utils': 1.40.0(@internationalized/date@3.12.0)
@@ -3441,7 +3435,7 @@ snapshots:
       '@clack/prompts': 1.0.0-alpha.6
       commander: 14.0.2
       cosmiconfig: 9.0.0(typescript@6.0.3)
-      effect: 3.19.5
+      effect: 3.21.2
       fs-extra: 11.3.2
       magicast: 0.5.1
       package-directory: 8.1.0
@@ -3456,7 +3450,7 @@ snapshots:
     dependencies:
       '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.12.0)
       '@pandacss/dev': 0.48.0(typescript@6.0.3)
-      effect: 3.10.15
+      effect: 3.21.2
     transitivePeerDependencies:
       - '@internationalized/date'
 
@@ -3900,7 +3894,7 @@ snapshots:
   '@zag-js/accordion@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
@@ -3909,7 +3903,7 @@ snapshots:
   '@zag-js/accordion@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -3921,7 +3915,7 @@ snapshots:
   '@zag-js/angle-slider@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/rect-utils': 1.40.0
       '@zag-js/types': 1.40.0
@@ -3937,7 +3931,7 @@ snapshots:
 
   '@zag-js/async-list@1.40.0':
     dependencies:
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/utils': 1.40.0
 
   '@zag-js/auto-resize@0.62.1':
@@ -3951,7 +3945,7 @@ snapshots:
   '@zag-js/avatar@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -3959,7 +3953,7 @@ snapshots:
   '@zag-js/avatar@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -3967,7 +3961,7 @@ snapshots:
   '@zag-js/carousel@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -3975,7 +3969,7 @@ snapshots:
   '@zag-js/carousel@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/scroll-snap': 1.40.0
       '@zag-js/types': 1.40.0
@@ -3985,7 +3979,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/collection': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
@@ -3997,7 +3991,7 @@ snapshots:
   '@zag-js/checkbox@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4007,7 +4001,7 @@ snapshots:
   '@zag-js/checkbox@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4016,7 +4010,7 @@ snapshots:
   '@zag-js/clipboard@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -4024,7 +4018,7 @@ snapshots:
   '@zag-js/clipboard@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4032,7 +4026,7 @@ snapshots:
   '@zag-js/collapsible@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -4040,7 +4034,7 @@ snapshots:
   '@zag-js/collapsible@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4057,7 +4051,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/color-utils': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4071,7 +4065,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/color-utils': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/popper': 1.40.0
@@ -4091,7 +4085,7 @@ snapshots:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/aria-hidden': 0.62.1
       '@zag-js/collection': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4103,7 +4097,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/collection': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
@@ -4112,21 +4106,16 @@ snapshots:
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
 
-  '@zag-js/core@0.62.1':
+  '@zag-js/core@0.82.2':
     dependencies:
-      '@zag-js/store': 0.62.1
-      klona: 2.0.6
-
-  '@zag-js/core@1.40.0':
-    dependencies:
-      '@zag-js/dom-query': 1.40.0
-      '@zag-js/utils': 1.40.0
+      '@zag-js/store': 0.82.2
+      '@zag-js/utils': 0.82.2
 
   '@zag-js/date-input@1.40.0(@internationalized/date@3.12.0)':
     dependencies:
       '@internationalized/date': 3.12.0
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/date-utils': 1.40.0(@internationalized/date@3.12.0)
       '@zag-js/dom-query': 1.40.0
       '@zag-js/live-region': 1.40.0
@@ -4137,7 +4126,7 @@ snapshots:
     dependencies:
       '@internationalized/date': 3.5.5
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.5)
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
@@ -4153,7 +4142,7 @@ snapshots:
     dependencies:
       '@internationalized/date': 3.12.0
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/date-utils': 1.40.0(@internationalized/date@3.12.0)
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
@@ -4178,7 +4167,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/aria-hidden': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/remove-scroll': 0.62.1
@@ -4190,7 +4179,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/aria-hidden': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-trap': 1.40.0
@@ -4227,7 +4216,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/aria-hidden': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-trap': 1.40.0
@@ -4238,7 +4227,7 @@ snapshots:
   '@zag-js/editable@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4249,7 +4238,7 @@ snapshots:
   '@zag-js/editable@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/interact-outside': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4262,7 +4251,7 @@ snapshots:
   '@zag-js/file-upload@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/file-utils': 0.62.1
       '@zag-js/i18n-utils': 0.62.1
@@ -4272,7 +4261,7 @@ snapshots:
   '@zag-js/file-upload@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/file-utils': 1.40.0
       '@zag-js/i18n-utils': 1.40.0
@@ -4290,7 +4279,7 @@ snapshots:
   '@zag-js/floating-panel@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/popper': 1.40.0
       '@zag-js/rect-utils': 1.40.0
@@ -4313,7 +4302,7 @@ snapshots:
   '@zag-js/hover-card@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/popper': 0.62.1
@@ -4323,7 +4312,7 @@ snapshots:
   '@zag-js/hover-card@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/popper': 1.40.0
@@ -4341,7 +4330,7 @@ snapshots:
   '@zag-js/image-cropper@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4363,7 +4352,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/collection': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4376,7 +4365,7 @@ snapshots:
   '@zag-js/marquee@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4384,7 +4373,7 @@ snapshots:
   '@zag-js/menu@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4396,7 +4385,7 @@ snapshots:
   '@zag-js/menu@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
@@ -4408,7 +4397,7 @@ snapshots:
   '@zag-js/navigation-menu@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4418,7 +4407,7 @@ snapshots:
     dependencies:
       '@internationalized/number': 3.5.3
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4430,7 +4419,7 @@ snapshots:
     dependencies:
       '@internationalized/number': 3.6.5
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4442,7 +4431,7 @@ snapshots:
   '@zag-js/pagination@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -4450,7 +4439,7 @@ snapshots:
   '@zag-js/pagination@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4458,7 +4447,7 @@ snapshots:
   '@zag-js/password-input@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4466,7 +4455,7 @@ snapshots:
   '@zag-js/pin-input@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4476,7 +4465,7 @@ snapshots:
   '@zag-js/pin-input@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4485,7 +4474,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/aria-hidden': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/popper': 0.62.1
@@ -4498,7 +4487,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/aria-hidden': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-trap': 1.40.0
@@ -4521,19 +4510,19 @@ snapshots:
 
   '@zag-js/presence@0.62.1':
     dependencies:
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/types': 0.62.1
 
   '@zag-js/presence@1.40.0':
     dependencies:
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
 
   '@zag-js/progress@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -4541,7 +4530,7 @@ snapshots:
   '@zag-js/progress@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4549,7 +4538,7 @@ snapshots:
   '@zag-js/qr-code@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
       '@zag-js/utils': 0.62.1
@@ -4559,7 +4548,7 @@ snapshots:
   '@zag-js/qr-code@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4569,7 +4558,7 @@ snapshots:
   '@zag-js/radio-group@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 0.62.1
       '@zag-js/element-rect': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4579,7 +4568,7 @@ snapshots:
   '@zag-js/radio-group@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4588,7 +4577,7 @@ snapshots:
   '@zag-js/rating-group@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4598,14 +4587,14 @@ snapshots:
   '@zag-js/rating-group@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
 
   '@zag-js/react@1.40.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/store': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4627,7 +4616,7 @@ snapshots:
   '@zag-js/scroll-area@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4640,7 +4629,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/collection': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4653,7 +4642,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/collection': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
@@ -4664,7 +4653,7 @@ snapshots:
   '@zag-js/signature-pad@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
@@ -4674,7 +4663,7 @@ snapshots:
   '@zag-js/signature-pad@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4683,7 +4672,7 @@ snapshots:
   '@zag-js/slider@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/element-size': 0.62.1
@@ -4695,7 +4684,7 @@ snapshots:
   '@zag-js/slider@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4703,7 +4692,7 @@ snapshots:
   '@zag-js/splitter@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/number-utils': 0.62.1
@@ -4713,7 +4702,7 @@ snapshots:
   '@zag-js/splitter@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4721,14 +4710,14 @@ snapshots:
   '@zag-js/steps@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
 
-  '@zag-js/store@0.62.1':
+  '@zag-js/store@0.82.2':
     dependencies:
-      proxy-compare: 3.0.0
+      proxy-compare: 3.0.1
 
   '@zag-js/store@1.40.0':
     dependencies:
@@ -4737,7 +4726,7 @@ snapshots:
   '@zag-js/switch@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4747,7 +4736,7 @@ snapshots:
   '@zag-js/switch@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4756,7 +4745,7 @@ snapshots:
   '@zag-js/tabs@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/element-rect': 0.62.1
@@ -4766,7 +4755,7 @@ snapshots:
   '@zag-js/tabs@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4775,7 +4764,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 0.62.1
       '@zag-js/auto-resize': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/form-utils': 0.62.1
@@ -4788,7 +4777,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/auto-resize': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/interact-outside': 1.40.0
       '@zag-js/live-region': 1.40.0
@@ -4803,7 +4792,7 @@ snapshots:
     dependencies:
       '@internationalized/date': 3.5.5
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4814,7 +4803,7 @@ snapshots:
   '@zag-js/timer@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4822,7 +4811,7 @@ snapshots:
   '@zag-js/toast@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 0.62.1
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
@@ -4832,7 +4821,7 @@ snapshots:
   '@zag-js/toast@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
@@ -4841,7 +4830,7 @@ snapshots:
   '@zag-js/toggle-group@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
@@ -4850,7 +4839,7 @@ snapshots:
   '@zag-js/toggle-group@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4858,7 +4847,7 @@ snapshots:
   '@zag-js/toggle@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4866,7 +4855,7 @@ snapshots:
   '@zag-js/tooltip@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/popper': 0.62.1
@@ -4876,7 +4865,7 @@ snapshots:
   '@zag-js/tooltip@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-visible': 1.40.0
       '@zag-js/popper': 1.40.0
@@ -4886,7 +4875,7 @@ snapshots:
   '@zag-js/tour@1.40.0':
     dependencies:
       '@zag-js/anatomy': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dismissable': 1.40.0
       '@zag-js/dom-query': 1.40.0
       '@zag-js/focus-trap': 1.40.0
@@ -4898,7 +4887,7 @@ snapshots:
   '@zag-js/tree-view@0.62.1':
     dependencies:
       '@zag-js/anatomy': 0.62.1
-      '@zag-js/core': 0.62.1
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-event': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/types': 0.62.1
@@ -4908,7 +4897,7 @@ snapshots:
     dependencies:
       '@zag-js/anatomy': 1.40.0
       '@zag-js/collection': 1.40.0
-      '@zag-js/core': 1.40.0
+      '@zag-js/core': 0.82.2
       '@zag-js/dom-query': 1.40.0
       '@zag-js/types': 1.40.0
       '@zag-js/utils': 1.40.0
@@ -4922,6 +4911,8 @@ snapshots:
       csstype: 3.2.3
 
   '@zag-js/utils@0.62.1': {}
+
+  '@zag-js/utils@0.82.2': {}
 
   '@zag-js/utils@1.40.0': {}
 
@@ -5138,11 +5129,7 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  effect@3.10.15:
-    dependencies:
-      fast-check: 3.23.2
-
-  effect@3.19.5:
+  effect@3.21.2:
     dependencies:
       '@standard-schema/spec': 1.1.0
       fast-check: 3.23.2
@@ -5413,8 +5400,6 @@ snapshots:
       graceful-fs: 4.2.11
 
   kleur@4.1.5: {}
-
-  klona@2.0.6: {}
 
   lightningcss-android-arm64@1.32.0:
     optional: true
@@ -6080,8 +6065,6 @@ snapshots:
   prettier@3.8.3: {}
 
   property-information@7.1.0: {}
-
-  proxy-compare@3.0.0: {}
 
   proxy-compare@3.0.1: {}
 

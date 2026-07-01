@@ -1,12 +1,6 @@
-import {
-  HeadContent,
-  Outlet,
-  Scripts,
-  createRootRoute,
-  useRouter,
-} from '@tanstack/react-router'
-import { useEffect } from 'react'
+import { createRootRoute, HeadContent, Outlet, Scripts, useRouter } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
+import { useEffect } from 'react'
 import { css } from 'styled-system/css'
 
 import { NavBar } from '~/components/NavBar'

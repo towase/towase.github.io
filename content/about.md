@@ -2,13 +2,10 @@
 
 ## 性格
 
-- 16personalities
-  - 2026年: [INFJ 提唱者](https://www.16personalities.com/ja/infj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC)
-  - 2025年: [INFP 仲介者](https://www.16personalities.com/ja/infp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC)
-  - 2023年: [INTP 論理学者](https://www.16personalities.com/ja/intp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC) 
+- 16personalities: [INFJ 提唱者](https://www.16personalities.com/ja/infj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC)
 - 慎重派。考えてから動くタイプ
   - 仮説で動くこと、まずやってみるを大事にしているが、根はじっくり考えたい人
-- 極端な考えになることが少なく、柔軟に考えられることが多い
+- 極端な考えにはならず柔軟に思考する
 - 人前・アドリブが苦手
 
 ## 趣味・好み
@@ -48,6 +45,7 @@
 
 たまにライブに行きます。
 
+#### 好きなアーティスト
 - ずっと真夜中でいいのに。
 - サカナクション
 - 宇多田ヒカル

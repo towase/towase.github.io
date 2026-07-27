@@ -33,6 +33,12 @@ TanStack Start（prerender 専用）ベースの静的ポートフォリオサ�
 
 **ワークフロー:** `content/` の md か `src/` のコードを編集 → コミット・push → GitHub Actions が自動でビルド・デプロイ。
 
+## Git 運用
+
+- Pull Request は作成せず、`main` に直接コミットして `origin/main` へ push する
+- コミットメッセージは必ず英語で書く
+- GitHub 上で公開されるタイトル・説明・コメントを作成する場合も英語で書く
+
 ## 主要技術スタック
 
 - Framework: **TanStack Start**（prerender 専用構成）

@@ -84,13 +84,6 @@ LLMをプロダクトの中核に据えた新規B2B SaaSの開発に業務委託
   - 実装判断の記録・レビュー自律対応・実機UX検証などの専用スキル群を整備。静的に検査可能な規約はプロンプトではなくlinter・git hookに落とす方針を徹底
   - マルチエージェントによる敵対的検証をレビューに組み込み、AI生成コードの品質を担保
 
-- インフラ運用・コスト最適化
-  - Aurora PostgreSQLのアップグレードを検証環境で事前検証し、本番を含む全環境へ無事故で適用
-  - S3 Gateway VPCエンドポイント追加によりNAT Gatewayコストを月額約900ドル削減。AWS Cost Anomaly Detectionを全環境へ展開
-
-- ISO 27017対応のアカウント削除機能の設計・実装
-  - 主要SaaSの削除仕様を調査の上、認証情報の物理削除と業務データの匿名化保持を組み合わせた方式を設計・実装
-
 #### 技術スタック
 TypeScript / React / TanStack Router・TanStack Query / Zustand / react-i18next / Hono / Zod / OpenAPI / Drizzle ORM / PostgreSQL（Aurora, RLS）/ Supabase / AWS（Bedrock, SQS, VPC）/ GCP / Terraform / GitHub Actions / pnpm / Turborepo / Vitest / Biome / lefthook / E2B / Nomad / Consul / Mastra / Vercel AI SDK / Claude Code
 

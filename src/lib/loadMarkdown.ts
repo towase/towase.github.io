@@ -4,7 +4,7 @@ const modules = import.meta.glob('/content/*.md', {
   eager: true,
 }) as Record<string, string>
 
-const SLUG_PATTERN = /^[a-z]+$/
+const SLUG_PATTERN = /^[a-z]+(?:-[a-z]+)*$/
 
 export function loadMarkdown(slug: string): string {
   if (!SLUG_PATTERN.test(slug)) {

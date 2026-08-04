@@ -26,8 +26,8 @@ describe('loadMarkdown', () => {
     expect(loadMarkdown('behavior')).toContain('スタンス')
   })
 
-  it('reads manual.md from content/', () => {
-    expect(loadMarkdown('manual')).toContain('ワークスタイル')
+  it('reads working-with-me.md from content/', () => {
+    expect(loadMarkdown('working-with-me')).toContain('一緒に働くうえで')
   })
 
   it('rejects slug containing traversal characters', () => {

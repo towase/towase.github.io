@@ -29,3 +29,18 @@
   background-color: transparent;
   color: inherit;
 }
+
+.markdown-body table {
+  overscroll-behavior-inline: contain;
+  scrollbar-gutter: stable;
+}
+
+@media (max-width: 48rem) {
+  .markdown-body table :is(th, td) {
+    min-width: 9rem;
+  }
+
+  .markdown-body table :is(th, td):first-child {
+    white-space: nowrap;
+  }
+}

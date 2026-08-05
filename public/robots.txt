@@ -1,0 +1,14 @@
+# Googlebot must be able to read the noindex meta tag so pages can be removed
+# from Google Search results. Keep Search Console's inspection tool available
+# for verification, and block all other automated crawlers.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Disallow: /

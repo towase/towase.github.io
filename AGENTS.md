@@ -20,7 +20,7 @@ pnpm format          # Biome format
 
 TanStack Start（prerender 専用）ベースの静的ポートフォリオサイトで、GitHub Pages にデプロイされています。
 
-- `content/` — Markdown ソース（index, about, career, behavior, working-with-me）
+- `content/` — Markdown ソース（index, about, career, principles, working-with-me）
 - `src/routes/` — TanStack Router のファイルベースルート
 - `src/components/` — React コンポーネント（NavBar, MarkdownRenderer）
 - `src/lib/` — server function（loadMarkdown）
@@ -58,7 +58,7 @@ TanStack Start（prerender 専用）ベースの静的ポートフォリオサ�
 | `/`                | `content/index.md`           | ハブページ       |
 | `/about`           | `content/about.md`           | 自己紹介         |
 | `/career`          | `content/career.md`          | 職務経歴         |
-| `/behavior`        | `content/behavior.md`        | スタンス         |
+| `/principles`      | `content/principles.md`      | 原則             |
 | `/working-with-me` | `content/working-with-me.md` | 一緒に働くうえで |
 
 `MarkdownRenderer` が `/` 始まりのリンクを `<Link>`（TanStack Router）に置換し、外部リンクは `rehype-external-links` で `target=_blank` を付与する。

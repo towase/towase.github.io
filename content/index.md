@@ -39,5 +39,5 @@
 
 ## もっと知りたい方へ
 - [📚 職務経歴書](/career)
-- [🧭 スタンス](/behavior)
+- [📐 原則](/principles)
 - [📖 一緒に働くうえで](/working-with-me)

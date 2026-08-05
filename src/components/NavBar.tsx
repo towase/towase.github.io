@@ -48,7 +48,7 @@ const linkStyles = css({
 
 const navItems = [
   { to: '/career', label: '職務経歴' },
-  { to: '/behavior', label: 'スタンス' },
+  { to: '/principles', label: '原則' },
   { to: '/working-with-me', label: '一緒に働くうえで' },
 ] as const
 

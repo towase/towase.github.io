@@ -22,8 +22,8 @@ describe('loadMarkdown', () => {
     )
   })
 
-  it('reads behavior.md from content/', () => {
-    expect(loadMarkdown('behavior')).toContain('スタンス')
+  it('reads principles.md from content/', () => {
+    expect(loadMarkdown('principles')).toContain('原則')
   })
 
   it('reads working-with-me.md from content/', () => {

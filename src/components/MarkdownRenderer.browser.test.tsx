@@ -6,17 +6,18 @@ import {
   Outlet,
   RouterProvider,
 } from '@tanstack/react-router'
+import type { ReactNode } from 'react'
 import { describe, expect, it } from 'vitest'
 import { render } from 'vitest-browser-react'
 
 import { MarkdownRenderer } from './MarkdownRenderer'
 
-async function renderMarkdown(source: string) {
+async function renderMarkdown(source: string, afterTitle?: ReactNode) {
   const rootRoute = createRootRoute({ component: () => <Outlet /> })
   const indexRoute = createRoute({
     getParentRoute: () => rootRoute,
     path: '/',
-    component: () => <MarkdownRenderer source={source} />,
+    component: () => <MarkdownRenderer source={source} afterTitle={afterTitle} />,
   })
   const aboutRoute = createRoute({
     getParentRoute: () => rootRoute,
@@ -57,6 +58,13 @@ describe('MarkdownRenderer', () => {
     const screen = await renderMarkdown('# 自己紹介')
     const heading = screen.getByRole('heading', { level: 1, name: '自己紹介' })
     await expect.element(heading).toHaveAttribute('id', '自己紹介')
+  })
+
+  it('renders additional content immediately after the title', async () => {
+    const screen = await renderMarkdown('# Hello\n\nbody text', <span>Profile image</span>)
+    const heading = await screen.getByRole('heading', { level: 1, name: 'Hello' }).element()
+
+    expect(heading.nextElementSibling?.textContent).toBe('Profile image')
   })
 
   it('wraps content in markdown-body article', async () => {

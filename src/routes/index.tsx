@@ -10,5 +10,22 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   const source = Route.useLoaderData()
-  return <MarkdownRenderer source={source} />
+  return (
+    <div className="home-profile-container">
+      <MarkdownRenderer
+        source={source}
+        className="home-profile"
+        afterTitle={
+          <img
+            className="home-profile__image"
+            src="/profile.png"
+            alt=""
+            width="500"
+            height="500"
+            fetchPriority="high"
+          />
+        }
+      />
+    </div>
+  )
 }

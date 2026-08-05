@@ -35,6 +35,47 @@
   scrollbar-gutter: stable;
 }
 
+.home-profile-container {
+  container-type: inline-size;
+}
+
+.home-profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.home-profile > * {
+  min-width: 0;
+}
+
+.home-profile__image {
+  display: block;
+  width: 10rem;
+  height: auto;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+}
+
+@container (min-width: 40rem) {
+  .home-profile {
+    grid-template-columns: 10rem minmax(0, 1fr);
+    column-gap: 2rem;
+  }
+
+  .home-profile > * {
+    grid-column: 1 / -1;
+  }
+
+  .home-profile__image {
+    grid-column: 1;
+    margin: 0;
+  }
+
+  .home-profile > table:first-of-type {
+    grid-column: 2;
+  }
+}
+
 @media (max-width: 48rem) {
   .markdown-body table :is(th, td) {
     min-width: 9rem;

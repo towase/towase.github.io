@@ -12,7 +12,7 @@
 
 | カテゴリ                       | 技術・ツール・手法                                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| プログラミング言語             | Go, TypeScript, Python                                                                                                                      |
+| プログラミング言語             | Go, TypeScript                                                                                                                              |
 | フレームワーク                 | React, Expo                                                                                                                                 |
 | IDL                            | OpenAPI, Protocol Buffers                                                                                                                   |
 | データストア                   | MySQL, PostgreSQL, Redis                                                                                                                    |
@@ -20,7 +20,7 @@
 | クラウド（GCP）                | BigQuery, Google Analytics                                                                                                                  |
 | コンテナ・オーケストレーション | Docker                                                                                                                                      |
 | IaC                            | Terraform                                                                                                                                   |
-| CI/CD                          | GitHub Actions, DroneCI                                                                                                                     |
+| CI/CD                          | GitHub Actions                                                                                                                              |
 | その他                         | GoF デザインパターン, オブジェクト指向, ドメイン駆動設計, 12 Factor App, マルチテナントアーキテクチャ, スクラム開発, OAuth2.0, Feature Flag |
 
 

@@ -15,11 +15,9 @@ describe('loadMarkdown', () => {
     expect(loadMarkdown('career')).toContain('職務経歴書')
   })
 
-  it('documents full-time employment through 2026-02-17', () => {
+  it('documents full-time employment through February 2026', () => {
     expect(loadMarkdown('index')).toContain('2015/04〜2026/02 の職歴は、すべて正社員')
-    expect(loadMarkdown('career')).toContain(
-      '2015年04月01日〜2026年02月17日までの職歴は、すべて正社員',
-    )
+    expect(loadMarkdown('career')).toContain('2015年04月〜2026年02月までの職歴は、すべて正社員')
   })
 
   it('reads principles.md from content/', () => {

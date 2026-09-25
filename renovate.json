@@ -1,0 +1,47 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":semanticCommits"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 9am on monday"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 10,
+  "rangeStrategy": "bump",
+  "minimumReleaseAge": "3 days",
+  "osvVulnerabilityAlerts": true,
+  "platformAutomerge": false,
+  "automergeStrategy": "squash",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "schedule": ["before 9am on the first day of the month"]
+  },
+  "packageRules": [
+    {
+      "description": "Automerge non-major npm updates once CI is green",
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge all GitHub Actions updates once CI is green",
+      "matchManagers": ["github-actions"],
+      "automerge": true
+    },
+    {
+      "description": "PandaCSS 1.x is incompatible with Park UI panda-preset 0.43.1; keep both on 0.x",
+      "matchPackageNames": ["@pandacss/dev", "@park-ui/panda-preset"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
+      "description": "Group TanStack packages so router/start move together",
+      "matchPackageNames": ["@tanstack/**"],
+      "groupName": "tanstack"
+    },
+    {
+      "description": "Group Vitest + Playwright test tooling",
+      "matchPackageNames": ["vitest", "@vitest/**", "vitest-browser-react", "playwright"],
+      "groupName": "vitest"
+    }
+  ]
+}

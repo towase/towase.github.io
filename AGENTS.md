@@ -30,14 +30,24 @@ TanStack Start（prerender 専用）ベースの静的ポートフォリオサ�
 - `vite.config.ts` — Vite 設定（tanstackStart の prerender 有効）
 - `vitest.config.ts` — Vitest projects（node + browser/playwright）
 - `.github/workflows/deploy.yml` — pnpm build → GitHub Pages デプロイ
+- `.github/workflows/ci.yml` — PR と `main` push で lint → build → typecheck → test を実行
+- `renovate.json` — Renovate 設定（依存関係の自動更新・自動マージ）
 
 **ワークフロー:** `content/` の md か `src/` のコードを編集 → コミット・push → GitHub Actions が自動でビルド・デプロイ。
 
 ## Git 運用
 
-- Pull Request は作成せず、`main` に直接コミットして `origin/main` へ push する
+- Pull Request は作成せず、`main` に直接コミットして `origin/main` へ push する（Renovate が作る依存更新 PR は例外）
 - コミットメッセージは必ず英語で書く
 - GitHub 上で公開されるタイトル・説明・コメントを作成する場合も英語で書く
+
+## 依存関係の更新（Renovate）
+
+- 毎週月曜 9:00 JST 前に Renovate が更新 PR を作成し、CI が通れば自動マージする（npm の minor/patch、GitHub Actions は全て）
+- major 更新は PR のみ作成し、手動でレビュー・マージする
+- `@pandacss/dev` と `@park-ui/panda-preset` の major 更新は無効（PandaCSS 1.x は Park UI 0.43.1 と非互換）
+- 脆弱性の修正はスケジュールを無視して即時 PR が作られる
+- `pnpm typecheck` は `pnpm build` が生成する `src/routeTree.gen.ts` に依存するため、CI では build → typecheck の順で実行する
 
 ## 主要技術スタック
 

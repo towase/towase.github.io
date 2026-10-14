@@ -53,13 +53,13 @@ TanStack Start（prerender 専用）ベースの静的ポートフォリオサ�
 
 - Framework: **TanStack Start**（prerender 専用構成）
 - Router: **TanStack Router**（ファイルベース）
-- Styling: **PandaCSS 0.48.0** + **Park UI panda-preset 0.43.1**（PandaCSS は 1.x にしないこと、Park UI 0.43.1 と非互換）
+- Styling: **PandaCSS 0.48.1** + **Park UI panda-preset 0.43.1**（PandaCSS は 1.x 以降にしないこと、Park UI 0.43.1 と非互換）
 - Markdown: react-markdown + remark-gfm + rehype-slug + rehype-external-links
 - Markdown 体裁: github-markdown-css（dark dimmed）
 - Package manager: pnpm 9
 - Node: 22 LTS（`.nvmrc`）
 - Linter/Formatter: Biome 2
-- Test: Vitest 4（node + browser projects）、browser は `@vitest/browser-playwright` provider
+- Test: Vitest 5（node + browser projects）、browser は `@vitest/browser-playwright` provider
 
 ## ルート設計
 

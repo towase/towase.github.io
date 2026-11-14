@@ -148,7 +148,7 @@ TypeScript / React / TanStack Router・TanStack Query / Zustand / react-i18next 
 - OAuth2.0を用いた認証・認可基盤設計
 - Protocol Buffers + gRPC設計
 - CI/CD構築および開発環境整備
-- モノリポ設計
+- モノレポ設計
 - ffmpeg / AWS Elemental MediaConvertの技術検証
 
 #### 主な取り組み・成果

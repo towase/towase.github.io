@@ -41,9 +41,28 @@
 
 
 ## フリーランス（業務委託）
-2026年04月 ～ 2026年07月
+2026年04月 ～ 現在
+
+### サービス：医療系資格試験の学習支援サービス
+期間：2026年09月 ～ 現在（実績は2026年11月14日時点）
+
+役割：ソフトウェアエンジニア（業務委託）
+
+既存サービスの開発・運用改善を担当。システム調査、監視整備、セキュリティ対策、コードレビュー、問い合わせの技術調査に従事。
+
+- Docker構成と起動手順を改善し、バックエンド起動・初回コンパイルの所要時間をそれぞれ約85%短縮（Macでの計測）。
+  <!-- 詳細: https://github.com/towase/career-notes/blob/main/notes/2026-h2-freelance/development-environment.md -->
+- 複数AWSアカウントの稼働状況を、共通のダッシュボードで確認できる監視環境を構築。
+  <!-- 詳細: https://github.com/towase/career-notes/blob/main/notes/2026-h2-freelance/cross-account-monitoring.md -->
+- 秘密情報・設定の自動検査、AWS権限の見直し、脆弱性・データベース変更に関する通知を整備。
+  <!-- 詳細: https://github.com/towase/career-notes/blob/main/notes/2026-h2-freelance/security-and-ci.md -->
+
+技術：TypeScript / Docker / AWS / Terraform / GitHub Actions
+
+---
 
 ### サービス：要件定義・業務設計を支援するAIネイティブB2B SaaS（スタートアップ）
+期間：2026年04月 ～ 2026年07月
 
 #### 概要
 LLMをプロダクトの中核に据えた新規B2B SaaSの開発に業務委託として参画。TypeScriptモノレポ環境で、バックエンド・フロントエンド・AWS/GCPインフラを横断して担当。AIエージェントを前提とした開発プロセス（論点の事前確定 → 並列分解 → 統合 → ルール化）を実践し、権限管理・多言語化などの基幹機能の設計・実装を主導した。

@@ -34,6 +34,7 @@ export function MarkdownRenderer({ source, className, afterTitle }: MarkdownRend
   return (
     <article className={articleClassName}>
       <ReactMarkdown
+        skipHtml
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[
           rehypeSlug,

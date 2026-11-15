@@ -72,4 +72,13 @@ describe('MarkdownRenderer', () => {
     const article = screen.container.querySelector('article.markdown-body')
     expect(article).not.toBeNull()
   })
+
+  it('hides HTML comments while preserving surrounding markdown', async () => {
+    const screen = await renderMarkdown(
+      '# Public heading\n\nVisible achievement\n\n<!-- Private note reference -->\n\nFollowing paragraph',
+    )
+    await expect.element(screen.getByText('Visible achievement')).toBeVisible()
+    await expect.element(screen.getByText('Following paragraph')).toBeVisible()
+    expect(screen.container.textContent).not.toContain('Private note reference')
+  })
 })

@@ -157,6 +157,9 @@ Go / Echo / React / Expo / React Router / Redux・Zustand・TanStack Query / Ind
 ### サービス：LOGOSWARE Xe（ラーニングSaaS共通基盤）
 2023年03月 ～ 2023年09月
 
+#### 概要
+ラーニングSaaS共通基盤（開発・検証段階）の開発
+
 #### 役割
 - 共通基盤設計・開発リード
 
@@ -174,6 +177,9 @@ Go / Echo / React / Expo / React Router / Redux・Zustand・TanStack Query / Ind
 
 ### サービス：新規動画配信SaaS（立ち上げ）
 2022年07月 ～ 2023年02月
+
+#### 概要
+録画しながら編集できる動画配信SaaSの立ち上げに参画。別事業にリソースを割くためにチームは解散。
 
 #### 役割
 テックリード、スクラムマスター

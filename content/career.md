@@ -10,19 +10,21 @@
 
 ## スキル
 
-| カテゴリ                       | 技術・ツール・手法                                                                                                                          |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| プログラミング言語             | Go, TypeScript                                                                                                                              |
-| フレームワーク                 | React, Expo                                                                                                                                 |
-| IDL                            | OpenAPI, Protocol Buffers                                                                                                                   |
-| データストア                   | MySQL, PostgreSQL, Redis                                                                                                                    |
-| クラウド（AWS）                | ECS, EC2, S3, RDS, CloudFront, Lambda, SES, SQS, DynamoDB, Athena, Batch, MediaStore, etc                                                   |
-| クラウド（GCP）                | BigQuery, Google Analytics                                                                                                                  |
-| コンテナ・オーケストレーション | Docker                                                                                                                                      |
-| IaC                            | Terraform                                                                                                                                   |
-| CI/CD                          | GitHub Actions                                                                                                                              |
-| その他                         | GoF デザインパターン, オブジェクト指向, ドメイン駆動設計, 12 Factor App, マルチテナントアーキテクチャ, スクラム開発, OAuth2.0, Feature Flag |
 
+| 領域 | 技術 |
+| --- | --- |
+| 言語 | Go、TypeScript |
+| フロントエンド | React、Expo、React Router、TanStack Query、Zustand |
+| バックエンド | Echo、chi、Hono |
+| IDL | OpenAPI、Protocol Buffers |
+| データストア | MySQL、PostgreSQL、Redis |
+| クラウド（AWS） | ECS、EC2、S3、RDS、CloudFront、Lambda、SES、SQS、DynamoDB、Athena、Batch、MediaStoreなど |
+| クラウド（GCP） | BigQuery、Google Analytics |
+| コンテナ・オーケストレーション | Docker |
+| IaC | Terraform |
+| CI/CD | GitHub Actions |
+
+設計・開発では、GoF デザインパターン、オブジェクト指向、ドメイン駆動設計、12 Factor App、マルチテナントアーキテクチャ、スクラム開発、Feature Flagを用いた経験がある。
 
 ## 技術ブログ
 

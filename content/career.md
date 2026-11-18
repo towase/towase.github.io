@@ -24,7 +24,7 @@ PHP→GoへのAPI移行や、iOSアプリからWebアプリへの段階的リプ
 | IaC | Terraform |
 | CI/CD | GitHub Actions |
 
-設計・開発では、GoF デザインパターン、オブジェクト指向、ドメイン駆動設計、12 Factor App、マルチテナントアーキテクチャ、スクラム開発、Feature Flagを用いた経験がある。
+設計・開発では、GoF デザインパターン、オブジェクト指向、オニオンアーキテクチャ、ドメイン駆動設計、12 Factor App、マルチテナントアーキテクチャ、スクラム開発、Feature Flagを用いた経験がある。
 
 ## 技術ブログ
 

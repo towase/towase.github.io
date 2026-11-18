@@ -62,7 +62,8 @@ PHP→GoへのAPI移行や、iOSアプリからWebアプリへの段階的リプ
 - 秘密情報・設定の自動検査、AWS権限の見直し、脆弱性・データベース変更に関する通知を整備。
   <!-- 詳細: https://github.com/towase/career-notes/blob/main/notes/2026-h2-freelance/security-and-ci.md -->
 
-技術：TypeScript / Kotlin / Docker / AWS / GCP / Terraform / GitHub Actions
+#### 技術スタック
+TypeScript / Kotlin / Docker / AWS / GCP / Terraform / GitHub Actions
 
 ---
 
@@ -192,6 +193,9 @@ Go / Echo / React / Expo / React Router / Redux・Zustand・TanStack Query / Ind
 - アサイン前に開発基盤を整備しオンボーディング時間を短縮
 - アジャイル開発体制を提案・導入し、継続的改善サイクルを確立
 
+#### 技術スタック
+Go / chi / gRPC Gateway / Protocol Buffers・gRPC / PostgreSQL / ffmpeg / AWS（ECS、CloudFront、Lambda、S3、DynamoDB、Elemental MediaConvert） / Terraform
+
 ---
 
 ### サービス：GigaCast（企業向けウェビナー配信SaaS）
@@ -214,6 +218,9 @@ Go / Echo / React / Expo / React Router / Redux・Zustand・TanStack Query / Ind
 - CDNをLimelightからCloudFrontへ移行し、10,000人規模シミュレーションで安定稼働を確認、移行後はCDN起因の障害なし
 - Terraform導入により環境構築を半日で再現可能な状態へ標準化
 - 社内ナレッジ基盤（esa）導入を提案し、900件以上の記事蓄積に貢献（自身100件以上作成）
+
+#### 技術スタック
+Go / PHP / Node.js / Zend Framework / MySQL / Redis / AWS（ECS、CloudFront、Lambda、MediaStore、S3） / Terraform
 
 ---
 

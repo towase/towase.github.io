@@ -148,6 +148,9 @@ TypeScript / React / TanStack Router・TanStack Query / Zustand / Hono / Zod / O
 
 - 技術ブログを執筆し、はてなブックマーク60件以上を獲得
 
+#### 技術スタック
+Go / Echo / React / Expo / React Router / Redux・Zustand・TanStack Query / IndexedDB / AWS / GitHub Actions
+
 ## ロゴスウェア株式会社
 2020年01月 ～ 2023年09月
 
